@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="Y6W-OH-hqX" customClass="MainViewController" customModule="AnimalsInfoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="970"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CaA-yE-wRh">
+                                <rect key="frame" x="0.0" y="59" width="393" height="877"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Iq-L7-Spu" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="870"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fgg-yP-sHE">
+                                                <rect key="frame" x="30" y="30" width="333" height="810"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uwn-QM-URk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="333" height="196.66666666666666"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0i-YJ-PWD" customClass="BoxView" customModule="AnimalsInfoApp" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="196.66666666666666"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZTX-RB-hfQ" customClass="BoxView" customModule="AnimalsInfoApp" customModuleProvider="target">
+                                                                <rect key="frame" x="170.66666666666663" y="0.0" width="162.33333333333337" height="196.66666666666666"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LfY-d1-m8Z">
+                                                        <rect key="frame" x="0.0" y="204.66666666666669" width="333" height="196.33333333333331"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D6h-4X-Z5b" customClass="BoxView" customModule="AnimalsInfoApp" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="196.33333333333334"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48f-2S-syB" customClass="BoxView" customModule="AnimalsInfoApp" customModuleProvider="target">
+                                                                <rect key="frame" x="170.66666666666663" y="0.0" width="162.33333333333337" height="196.33333333333334"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HOh-ps-QnB">
+                                                        <rect key="frame" x="0.0" y="409" width="333" height="196.66666666666663"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uty-3Y-bg9" customClass="BoxView" customModule="AnimalsInfoApp" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="196.66666666666666"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mqj-mN-xhA" customClass="BoxView" customModule="AnimalsInfoApp" customModuleProvider="target">
+                                                                <rect key="frame" x="170.66666666666663" y="0.0" width="162.33333333333337" height="196.66666666666666"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="YVD-6i-9UO">
+                                                        <rect key="frame" x="0.0" y="613.66666666666663" width="333" height="196.33333333333337"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E27-qz-gg6" customClass="BoxView" customModule="AnimalsInfoApp" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="196.33333333333334"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWh-eX-z3b" customClass="BoxView" customModule="AnimalsInfoApp" customModuleProvider="target">
+                                                                <rect key="frame" x="170.66666666666663" y="0.0" width="162.33333333333337" height="196.33333333333334"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.92156863209999995" green="0.92156863209999995" blue="0.96078431610000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="870" id="TQ3-t2-hoz"/>
+                                            <constraint firstItem="Fgg-yP-sHE" firstAttribute="leading" secondItem="0Iq-L7-Spu" secondAttribute="leading" constant="30" id="es3-7A-wv4"/>
+                                            <constraint firstAttribute="trailing" secondItem="Fgg-yP-sHE" secondAttribute="trailing" constant="30" id="gYU-Ge-7Yp"/>
+                                            <constraint firstAttribute="bottom" secondItem="Fgg-yP-sHE" secondAttribute="bottom" constant="30" id="qpT-el-dO2"/>
+                                            <constraint firstItem="Fgg-yP-sHE" firstAttribute="top" secondItem="0Iq-L7-Spu" secondAttribute="top" constant="30" id="tk7-3U-Nz2"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0Iq-L7-Spu" secondAttribute="trailing" id="3en-qt-6JQ"/>
+                                    <constraint firstItem="0Iq-L7-Spu" firstAttribute="top" secondItem="CaA-yE-wRh" secondAttribute="top" id="88h-EX-zEE"/>
+                                    <constraint firstItem="0Iq-L7-Spu" firstAttribute="leading" secondItem="CaA-yE-wRh" secondAttribute="leading" id="Rcn-gH-DFf"/>
+                                    <constraint firstAttribute="bottom" secondItem="0Iq-L7-Spu" secondAttribute="bottom" id="hxK-uH-VUu"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CaA-yE-wRh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="28P-95-Tve"/>
+                            <constraint firstItem="0Iq-L7-Spu" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="HtC-T8-zsG"/>
+                            <constraint firstItem="CaA-yE-wRh" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="L85-hz-PaH"/>
+                            <constraint firstItem="CaA-yE-wRh" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="NUL-6o-Wlj"/>
+                            <constraint firstItem="CaA-yE-wRh" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="QR0-rv-Mqs"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="970"/>
+                    <connections>
+                        <outletCollection property="animalViews" destination="B0i-YJ-PWD" collectionClass="NSMutableArray" id="nXs-5w-C0E"/>
+                        <outletCollection property="animalViews" destination="ZTX-RB-hfQ" collectionClass="NSMutableArray" id="E1h-Pb-Cqg"/>
+                        <outletCollection property="animalViews" destination="D6h-4X-Z5b" collectionClass="NSMutableArray" id="SY6-d9-GAj"/>
+                        <outletCollection property="animalViews" destination="48f-2S-syB" collectionClass="NSMutableArray" id="Cds-3J-uEY"/>
+                        <outletCollection property="animalViews" destination="Uty-3Y-bg9" collectionClass="NSMutableArray" id="dOQ-3b-mt4"/>
+                        <outletCollection property="animalViews" destination="mqj-mN-xhA" collectionClass="NSMutableArray" id="AGA-yT-Ztg"/>
+                        <outletCollection property="animalViews" destination="E27-qz-gg6" collectionClass="NSMutableArray" id="F3m-ei-f13"/>
+                        <outletCollection property="animalViews" destination="mWh-eX-z3b" collectionClass="NSMutableArray" id="K4d-d3-xxk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.21374045801527" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+</document>
